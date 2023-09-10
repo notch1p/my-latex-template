@@ -5,12 +5,14 @@
 \usepackage{datetime2}
 \usepackage{fontspec-xetex}
 \usepackage{xeCJK}
-\setCJKmainfont[ItalicFont=LXGW WenKai Mono GB, BoldFont=Sarasa Gothic SC Semibold]{BabelStone Han}
+\usepackage{fancyhdr}
+\usepackage{twemojis}
+\setCJKmainfont[ItalicFont=LXGW WenKai Mono GB, BoldFont=Sarasa Gothic SC Bold]{BabelStone Han}
 \setCJKmonofont{Sarasa Fixed Slab SC}
 \setCJKsansfont{Sarasa Gothic SC}
 \setCJKmathfont{BabelStone Han}
-\setCJKfamilyfont{jarm}{IPAmjMincho}[BoldFont=Sarasa Gothic J Semibold, ItalicFont=YuKyokasho]
-\setCJKfamilyfont{hant}{I.Ming}[BoldFont=Sarasa Gothic CL Semibold, ItalicFont=LXGW WenKai Mono TC]
+\setCJKfamilyfont{jarm}{IPAmjMincho}[BoldFont=Sarasa Gothic J Bold, ItalicFont=YuKyokasho]
+\setCJKfamilyfont{hant}{I.Ming}[BoldFont=Sarasa Gothic CL Bold, ItalicFont=LXGW WenKai Mono TC]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[tmargin=2cm,rmargin=1in,lmargin=1in,margin=0.85in,bmargin=2cm,footskip=.2in]{geometry}
 \usepackage{amsmath,amsfonts,amsthm,amssymb,mathtools}
@@ -43,6 +45,7 @@
 \usepackage{pdfpages}
 \usepackage{transparent}
 \usepackage{physics}
+\usepackage{lipsum}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FONT STYLE
 \setmainfont[Scale=1.1]{XCharter} % reads XCharter.fontspec
@@ -572,7 +575,7 @@
     colframe=gray!80!black,
     size=small,
     boxrule=1pt,
-    title=\textbf{Note:-},
+    title=\textbf{Note},
     halign title=flush center,
     coltitle=black,
     breakable,
