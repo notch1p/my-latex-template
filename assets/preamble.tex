@@ -7,7 +7,8 @@
 \usepackage{xeCJK}
 \setCJKmainfont[ItalicFont=LXGW WenKai Mono GB, BoldFont=Sarasa Gothic SC Semibold]{BabelStone Han}
 \setCJKmonofont{Sarasa Fixed Slab SC}
-\setCJKsansfont{Lantinghei SC}
+\setCJKsansfont{Sarasa Gothic SC}
+\setCJKmathfont{BabelStone Han}
 \setCJKfamilyfont{jarm}{IPAmjMincho}[BoldFont=Sarasa Gothic J Semibold, ItalicFont=YuKyokasho]
 \setCJKfamilyfont{hant}{I.Ming}[BoldFont=Sarasa Gothic CL Semibold, ItalicFont=LXGW WenKai Mono TC]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,11 +45,11 @@
 \usepackage{physics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FONT STYLE
-\setmainfont{XCharter} % reads XCharter.fontspec
+\setmainfont[Scale=1.1]{XCharter} % reads XCharter.fontspec
 \setsansfont{Inter}
 \usepackage{unicode-math}
-\setmonofont{Sarasa Fixed Slab SC}
-\setmathfont{XCharter-Math.otf}[BoldFont=XCharter-Math-Bold.otf, CharacterVariant={3,6,10}, StylisticSet=4]
+\setmonofont{Victor Mono}
+\setmathfont{XCharter-Math.otf}[Scale=1.1,BoldFont=XCharter-Math-Bold.otf, CharacterVariant={3,6,10}, StylisticSet=4]
 \setmathfont{Libertinus Math}[range="1D4B6-"1D4CF, Scale=MatchLowercase]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
@@ -162,7 +163,7 @@
 }
 
 %================================
-% Corollery
+% Corollary
 %================================
 \tcbuselibrary{theorems,skins,hooks}
 \newtcbtheorem[number within=section]{Corollary}{Corollary}
