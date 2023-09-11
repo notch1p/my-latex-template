@@ -621,6 +621,10 @@
 \newcommand{\qs}[2]{\begin{question}{#1}{}#2\end{question}}
 \newcommand{\pf}[2]{\begin{myproof}[#1]#2\end{myproof}}
 \newcommand{\nt}[1]{\begin{note}#1\end{note}}
+\newcommand{\exc}[2]{\begin{Exercise}{#1}e{#2}\end{Exercise}}
+% Because && therefore
+\newcommand{\bc}{\because\,}
+\newcommand{\tf}{\therefore\,}
 
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
         \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
