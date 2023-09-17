@@ -7,7 +7,7 @@
 \usepackage{xeCJK}
 \usepackage{fancyhdr}
 \usepackage{twemojis}
-\usepackage{enumitem}
+\usepackage{metalogo}
 \setCJKmainfont[ItalicFont=LXGW WenKai Mono GB, BoldFont=Sarasa Gothic SC Bold]{BabelStone Han}
 \setCJKmonofont{Sarasa Fixed Slab SC}
 \setCJKsansfont{Sarasa Gothic SC}
@@ -46,15 +46,15 @@
 \usepackage{pdfpages}
 \usepackage{transparent}
 \usepackage{physics}
-\usepackage{lipsum}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FONT STYLE
-\setmainfont[Scale=1.1]{XCharter} % reads XCharter.fontspec
+\setmainfont{Literata}[BoldFont=Literata SemiBold, BoldItalicFont=Literata SemiBold Italic] % font-weight: 800 is not visually suitable w/ the CJK one.
 \setsansfont{Inter}
 \usepackage{unicode-math}
 \setmonofont{Victor Mono}
 \setmathfont{XCharter-Math.otf}[Scale=1.1,BoldFont=XCharter-Math-Bold.otf, CharacterVariant={3,6,10}, StylisticSet=4]
 \setmathfont{Libertinus Math}[range="1D4B6-"1D4CF, Scale=MatchLowercase]
+\newfontfamily\displayfont{Literata 72pt ExtraBold Italic}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
 \SetCommentSty{mycommfont}
